@@ -7,16 +7,22 @@
     "dev": "pruvious dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "nuxt": "^3.10.3",
+    "pruvious": "^3.10.6",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0",
-    "pruvious": "^3.10.6"
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.0.0-1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
     "nuxt": "^3.10.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-organize-attributes": "^1.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.12",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   }
